@@ -1,0 +1,1 @@
+if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/petrografia-app/sw.js', { scope: '/petrografia-app/' })})}
